@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Bash scrip to set up web servers to deploy web_static
+
 sudo apt-get update
 sudo apt-get -y install nginx
 sudo mkdir -p /data/web_static/shared/
