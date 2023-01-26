@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
     Fabric script that generates tgz archive from contents of web_static
 """
