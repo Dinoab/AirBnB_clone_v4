@@ -4,27 +4,25 @@
  */
 
 header {
-  align-items: flex-end;
-	background-color: #fff;
+	background-color: #FFFFFF;
 	background-image: url("../images/logo.png");
 	background-repeat: no-repeat;
 	background-position: 20px 50%;
-  display: flex;
 	height: 70px;
-  flex-direction: column;
-  justify-content: center;
 	width: 100%;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid #CCCCCC;
 }
 
 #api_status {
-  border-radius: 50%;
-  background-color: #ccc;
-  height: 40px;
-  margin-right: 20px;
-  width: 40px;
+        height: 40px;
+        width: 40px;
+        background-color: #cccccc;
+        border-radius: 40px;
+        float: right;
+        margin-right: 35px;
+        margin-top: 15px;
 }
 
 #api_status.available {
-  background-color: #ff545f;
+        background-color: #ff545f;
 }
